@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F1F1F1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links a, .links a:visited, #second-section a, #second-section a:visited {
+    color: #FE8C05;
+}
+
+header #nav-bar a:hover, #header #header-nav a:hover, #header .search-bar a:hover, .links a:hover, #second-section a:hover {
+    color: #C64D08;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#header {
+    background: #053027;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#header a, #header a:visited {
+    color: #fff;
+}
+
+.search-bar {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    height: 55px;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#header .search-bar a {
+    color: #053027;
+    margin-right: 20px;
+}
+
+#header-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#header-nav li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#nav-bar {
+    background: #8CD7C0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+#nav-bar a {
+    color: #053027;
+    font-size: 20px;
+    display: flex;
+}
+
+#nav-bar i {
+    margin-left: 10px;
+}
+
+#cards, #first-section, #second-section {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#cards {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#cards a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 279px;
+    padding: 10px;
+    font-weight: bold;
+    background: #FE8C05;
+    border-radius: 20px;
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+#first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#first-section h1 {
+    font-size: 50px;
+}
+
+#first-section i {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+#first-section p {
+    font-size: 20px;
+}
+
+#first-section .button {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#first-section .button a, #first-section .button a:visited, #first-section i {
+    color: #053027;
+}
+
+#first-section .button a:hover {
+    color: #C64D08;
+}
+
+#first-section .links {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#second-section {
+    margin-top: 40px;
+}
+
+#second-section .card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#second-section .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-section .cards .card {
+    width: 47%;
+}
+
+#second-section .table {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-section .table h2 {
+    font-weight: bold;
+    color: #296040;
+    font-size: 20px;
+}
+
+#second-section .table .column {
+    display: flex;
+    flex-direction: column;
+}
+
+#second-section .table p {
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    background: #C64D08;
+    height: 277px;
+    color: #fff;
+}
+
+footer .contact-content p {
+    font-size: 13px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #053027;
+}
