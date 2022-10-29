@@ -30,7 +30,6 @@ ul {
 
 #header {
     background: #053027;
-    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +54,6 @@ ul {
     border: none;
     height: 55px;
     font-family: 'Inter',sans-serif;
-    font-size: 20px;
     margin-left: 20px;
 }
 
@@ -85,7 +83,6 @@ ul {
 
 #nav-bar a {
     color: #053027;
-    font-size: 20px;
     display: flex;
 }
 
